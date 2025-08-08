@@ -1,4 +1,5 @@
-/* General */
+/* ---------- General ---------- */
+/* ----------------------------- */
 
 :root {
     --light-color: #FFFFFF;
@@ -10,12 +11,37 @@
     */
     --font-general: 'Inter';
     --dark-color: #1D1E25; /*Except the 5.0, Learn more button and Log in now*/
+    --grey-color: #7E8492;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Fonts/Inter/Inter_18pt-Light.ttf') format('truetype');
+    font-weight: 350;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Fonts/Inter/Inter_18pt-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Fonts/Inter/Inter_18pt-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Fonts/Inter/Inter_18pt-Medium.ttf') format('truetype');
+    font-weight: 500;
 }
 
 @font-face {
@@ -36,13 +62,7 @@ body {
     padding: 0rem 1.3rem;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
 }
-
-/*h1 {
-    font-size: 1.1rem;
-    color: var(--dark-color);
-}*/
 
 img {
     max-width: 100%;
@@ -50,28 +70,143 @@ img {
     display: block;
 }
 
-/* Header */
+/* ---------- Header ---------- */
+/* ---------------------------- */
 
-.top-bar {
+.top-bar { /*Light*/
     background-color: var(--purple-color);
     color: var(--light-color);
     font-size: 0.77rem;
     white-space: nowrap;
     overflow: hidden;
     justify-items: center;
+    align-items: center;
     padding: 0.5rem 0rem;
     margin-bottom: 0.5rem;
+    font-weight: 400;
 }
 
 #logo {
     max-width: 7.2rem;
+    align-self: center;
 }
 
 .menu-desktop {
     display: none;
 }
 
-.menu-toggle {
+.menu-toggle { /*It's more up than his, tried to fix but have to check*/
     background: none;
     border: none;
+    padding-top: 0.5rem;
+}
+
+/* ---------- Hero ---------- */
+/* -------------------------- */
+
+.modern-system { /*It's different, come back later, it's more up than his, tried to fix but have to check*/
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(134, 53, 253, 0.08);
+    color: var(--purple-color);
+    margin: 4.2rem 0rem 1rem 1.3rem;
+    padding: 0.5rem 0rem 0.5rem 1rem;
+    border-radius: 6.25rem;
+    width: 11.3rem;
+    justify-content: flex-start;
+}
+
+.modern-system p { /*Bold*/
+    font-size: 0.8rem;
+    align-self: center;
+    font-weight: 400;
+}
+
+.modern-system img { /*Flower more up*/
+    width: 1.12rem;
+    padding-left: 0.2rem;
+}
+
+h1 {
+    font-size: 2.25rem;
+    color: var(--dark-color);
+    margin: 1.3rem 1.3rem 0rem 1.3rem;
+}
+
+/*Here I'm trying myself to make the arrow with a div, but I'm almost giving up and take the full image*/
+/*I gave it up, maybe come back later*/
+
+.arrow { /*I don't think it's necessary a position absolute here, but I need to continue, come back later*/
+    width: 3.5rem;
+    position: absolute;
+    margin-top: 0.6rem;
+}
+
+.sub-heading {
+    display: flex;
+    flex-direction: row;
+    margin-left: 4rem;
+    margin-right: 1.3rem;
+}
+
+.optimize {
+    padding-left: 4rem;
+    color: var(--grey-color);
+    font-weight: 500;
+    line-height: 1.65rem;
+    margin-top: -0.65rem;
+}
+
+.heading {
+    background-image: url(Images/gradient.png);
+    background-repeat: no-repeat;
+    background-position: 0% 48.5%;
+    background-attachment: fixed;
+}
+
+.start {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FAFBFA;
+    margin: 1rem 1.3rem 0rem 1.3rem;
+    padding: 1.1rem 0.7rem;
+    align-items: center;
+    border-radius: 6.25rem;
+}
+
+.enter-your-email {
+    font-weight: 500;
+}
+
+#start-free {
+    background-color: var(--purple-color);
+    color: var(--light-color);
+    border: none;
+    border-radius: 6.25rem;
+    padding: 0.6rem 1rem;
+    font-weight: 600;
+    font-family: 'Inter';
+    align-self: center;
+    text-align: center;
+    letter-spacing: 0.04rem;
+}
+
+.already-account {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 0.3rem;
+    margin-left: 1.3rem;
+    margin-top: 0.5rem;
+}
+
+.already {
+    color: var(--grey-color);
+    font-size: 0.9rem;
+}
+
+.log {
+    color: #000000;
+    font-weight: 500;
 }
