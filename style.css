@@ -394,3 +394,104 @@ h1 {
 .card .craft {
     padding: 0.2rem;
 }
+
+/* ---------- First-Sale ---------- */
+/* -------------------------------- */
+
+.first-sale {
+    padding-top: 3.5rem;
+    background-color: #F8FAFC;
+}
+
+.cards-first-sale .card {
+    margin: 0rem 1.3rem;
+    padding: 1.5rem 1rem;
+    background-color: var(--light-color);
+}
+
+.cards-first-sale {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    padding-bottom: 4rem;
+}
+
+.image-data {
+    background-color: #CFC2F8;
+    padding: 0.8rem 0.8rem 0rem 0.8rem;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.real-time .card-info h3 {
+    font-size: 1.45rem;
+}
+
+.real-time .card-info p {
+    font-size: 0.9rem;
+    padding-top: 1.1rem;
+    line-height: 1.33rem;
+}
+
+.make-first-sale { /*Não está negrito*/
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 1.13rem;
+    border: none;
+    background-color: var(--purple-color);
+    border-radius: 6.25rem;
+    color: var(--light-color);
+    font-size: 1rem;
+    letter-spacing: 0.06rem;
+    font-weight: 500;
+}
+
+.image-payment {
+    background-color: #D0C3F9;
+    padding: 0.8rem 0.8rem 0rem 0.8rem;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    margin-bottom: 3.2rem;
+}
+
+.payment .card-info h3 {
+    font-size: 1.45rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.009rem;
+}
+
+.payment .card-info ul li {
+    font-size: 1.1rem;
+    padding-top: 1.8rem;
+    margin-left: 1.75rem;
+    line-height: 0.2rem;
+    letter-spacing: 0.03rem;
+    padding-bottom: 0.4rem;
+}
+
+.image-system {
+    background-color: #D0C3F9;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    margin-bottom: 1.9rem;
+}
+
+.system .card-info h3 {
+    font-size: 1.45rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.009rem;
+}
+
+.system .card-info ul li {
+    font-size: 1.1rem;
+    padding-top: 2rem;
+    margin-left: 1.75rem;
+    line-height: 0rem;
+    letter-spacing: 0.03rem;
+    padding-bottom: 0.55rem;
+}
+
+.last {
+    margin-bottom: 1rem;
+}
