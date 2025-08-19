@@ -797,10 +797,6 @@ h1 {
     margin-bottom: 2.5rem;
 }
 
-
-
-
-
 .fourty {
     padding-top: 2.5rem;
     margin: 1.5rem 1.3rem 3.5rem 1.3rem;
@@ -838,4 +834,49 @@ h1 {
     margin-left: -0.5rem;
     max-width: 16rem;
     margin-bottom: 2.5rem;
+}
+
+/* ---------- 30-day ---------- */
+/* ---------------------------- */
+
+.day-30 {
+    padding-left: 1.3rem;
+    background-color: var(--purple-color);
+    color: var(--light-color)
+}
+
+.text-30 h4 {
+    padding-top: 4.2rem;
+    font-size: 1.8rem;
+    letter-spacing: 0.07rem;
+    line-height: 2.3rem;
+    margin-bottom: 1.2rem;
+    font-weight: 500;
+}
+
+.text-30 p {
+    font-size: 1.3rem;
+    letter-spacing: 0.015rem;
+    line-height: 1.8rem;
+    margin-bottom: 1.95rem;
+    font-weight: 200;
+}
+
+.button-30 button {
+    padding: 0.85rem 1.35rem;
+    font-size: 1rem;
+    font-family: 'Inter';
+    text-align: center;
+    border-radius: 0.5rem;
+    border: none;
+    margin-bottom: 4rem;
+}
+
+.button-30 .learn-more {
+    margin-right: 0.5rem;
+}
+
+.button-30 .get-started {
+    background-color: #1D1E25;
+    color: var(--light-color);
 }
