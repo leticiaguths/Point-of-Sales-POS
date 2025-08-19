@@ -501,7 +501,7 @@ h1 {
 
 .client-avaliation {
     background-color: var(--light-color);
-    padding: 4rem 0rem;
+    padding: 4rem 0rem 2rem 0rem;
 }
 
 .title-and-sub h2 {
@@ -588,6 +588,7 @@ h1 {
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+    margin-left: -0.4rem;
 }
 
 .people .client {
@@ -599,4 +600,242 @@ h1 {
 .people .client-arrow {
     width: 3rem;
     height: 3rem;
+}
+
+/* ---------- Plans ---------- */
+/* --------------------------- */
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 3.6rem;
+    background-color: #F8FAFC;
+}
+
+.pricing h2 {
+    margin-top: 1rem;
+    font-size: 2.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.pricing p {
+    letter-spacing: 0.02rem;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    line-height: 1.5rem;
+}
+
+.pricing button {
+    margin-top: 2.5rem;
+    justify-content: center;
+}
+
+.pricing .chat-sales, .pricing .get-started {
+    padding: 0.9rem 1.4rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Inter';
+    border-radius: 6.25rem;
+    letter-spacing: 0.02rem;
+}
+
+.pricing .chat-sales {
+    border-color: #EDEDED;
+    border: 1px solid #EDEDED;
+    background: none;
+    margin-bottom: 2.5rem;
+}
+
+.pricing .get-started {
+    margin-bottom: 2.5rem;
+    background-color: var(--purple-color);
+    color: var(--light-color)
+}
+
+.pricing-button {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2.4rem;
+    margin-right: 2.2rem;
+    gap: 1rem;
+}
+
+.cards-pricing {
+    background-color: var(--light-color);
+}
+
+.ten {
+    padding-top: 2.3rem;
+    margin: 2.5rem 1.3rem 1.5rem 1.3rem;
+    border-color: #EDEDED;
+    border: 1px solid #EDEDED;
+    border-radius: 1rem;
+    justify-items: center;
+    text-align: center;
+}
+
+.card-top {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+}
+
+.ten .card-top .card-title-basic {
+    font-size: 0.9rem;
+    margin-bottom: 1.2rem;
+    background-color: #FAFBFA;
+    padding: 0.3rem 0.6rem;
+    max-width: 7rem;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    border-radius: 1rem;
+}
+
+.ten .card-top h3 {
+    font-size: 2.9rem;
+    margin-bottom: 0.8rem;
+}
+
+.ten .card-top p:not(.card-title-basic) {
+    font-size: 1rem;
+    margin-bottom: 1.05rem;
+}
+
+.card-top .chat-sales, .card-top .get-started {
+    padding: 0.9rem 5.2rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Inter';
+    border-radius: 6.25rem;
+    letter-spacing: 0.02rem;
+}
+
+.card-top .chat-sales {
+    border-color: #EDEDED;
+    border: 1px solid #EDEDED;
+    background: none;
+    margin-bottom: 2rem;
+}
+
+.card-top .get-started {
+    margin-bottom: 0.6rem;
+    background-color: var(--purple-color);
+    color: var(--light-color);
+}
+
+.card-divisor {
+    margin-bottom: 2.1rem;
+    padding: 0.01rem 1rem;
+    width: 17rem;
+    background-color: #EDEDED;
+}
+
+.ten .card-bottom {
+    margin-left: -0.5rem;
+    max-width: 16rem;
+    margin-bottom: 2.5rem;
+}
+
+.card-bottom .card-option {
+    display: flex;
+    flex-direction: row;
+    gap: 0.9rem;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+.card-option p {
+    text-align: start;
+    line-height: 1.3rem;
+    letter-spacing: 0.01rem;
+}
+
+.card-option img {
+    align-self: start;
+}
+
+.twenty {
+    padding-top: 2.5rem;
+    margin: 1.5rem 1.3rem 1.5rem 1.3rem;
+    border-color: #EDEDED;
+    border: 1px solid #EDEDED;
+    border-radius: 1rem;
+    justify-items: center;
+    text-align: center;
+}
+
+.twenty .card-top .card-title-business {
+    font-size: 0.9rem;
+    margin-bottom: 1.2rem;
+    background-color: #FAFBFA;
+    padding: 0.3rem 0.6rem;
+    max-width: 7rem;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    border-radius: 1rem;
+}
+
+.twenty .card-top h3 {
+    font-size: 2.9rem;
+    margin-bottom: 0.8rem;
+}
+
+.twenty .card-top p:not(.card-title-business) {
+    font-size: 1rem;
+    margin-bottom: 1.05rem;
+}
+
+.twenty .card-bottom {
+    margin-left: -0.5rem;
+    max-width: 16rem;
+    margin-bottom: 2.5rem;
+}
+
+
+
+
+
+.fourty {
+    padding-top: 2.5rem;
+    margin: 1.5rem 1.3rem 3.5rem 1.3rem;
+    border-color: #EDEDED;
+    border: 1px solid #EDEDED;
+    border-radius: 1rem;
+    justify-items: center;
+    text-align: center;
+}
+
+.fourty .card-top .card-title-enterprise {
+    font-size: 0.9rem;
+    margin-bottom: 1.2rem;
+    background-color: #FAFBFA;
+    padding: 0.3rem 0.6rem;
+    max-width: 9rem;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    border-radius: 1rem;
+}
+
+.fourty .card-top h3 {
+    font-size: 2.9rem;
+    margin-bottom: 0.8rem;
+}
+
+.fourty .card-top p:not(.card-title-enterprise) {
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+    max-width: 17rem;
+}
+
+.fourty .card-bottom {
+    margin-left: -0.5rem;
+    max-width: 16rem;
+    margin-bottom: 2.5rem;
 }
