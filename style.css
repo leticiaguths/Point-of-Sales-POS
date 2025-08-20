@@ -877,6 +877,78 @@ h1 {
 }
 
 .button-30 .get-started {
-    background-color: #1D1E25;
+    background-color: var(--dark-color);
     color: var(--light-color);
+}
+
+/* ---------- Footer ---------- */
+/* ---------------------------- */
+
+footer {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
+nav ul li a {
+    font-style: none;
+    text-decoration: none;
+    list-style: none;
+    color: var(--light-color);
+}
+
+ul {
+    list-style: none;
+} 
+
+.secondary-navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 0.5rem;
+    padding-left: 1.3rem;
+    font-size: 0.9rem;
+}
+
+.help, .links {
+    padding-left: 0.9rem;
+}
+
+.secondary-navigation ul li {
+    line-height: 2.5rem;
+}
+
+.secondary-navigation {
+    max-height: 28rem;
+    margin-bottom: 1.7rem;
+}
+
+.divisor {
+    margin-bottom: 2.1rem;
+    padding: 0.01rem 1rem;
+    width: 21rem;
+    background-color: #7E8492;
+    justify-self: center;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.5rem;
+    justify-content: center;
+    gap: 1.52rem;
+}
+
+.ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.8rem;
+    justify-content: space-evenly;
+    font-size: 0.8rem;
+}
+
+.utility-content span {
+    text-align: center;
+    display: block;
+    margin-top: 1.7rem;
+    padding-bottom: 2.5rem;
+    font-size: 0.9rem;
 }
